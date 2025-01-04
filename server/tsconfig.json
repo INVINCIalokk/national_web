@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es2017", // Or higher, as needed
+      "module": "commonjs",
+      "strict": true, 
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "skipLibCheck": true,
+      "outDir": "dist", 
+      "sourceMap": true
+    },
+    "include": ["src/**/*.ts"] // Include all TypeScript files within the 'src' directory
+  }
