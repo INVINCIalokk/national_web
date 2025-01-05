@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const app: Application = express();
 const port = process.env.PORT || 3001; // Port for the server
-
+  
 app.use(cors()); // Enable CORS if needed
 app.use(express.json()); // Parse incoming JSON requests
 

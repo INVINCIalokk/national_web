@@ -1,0 +1,16 @@
+# Local configuration files
+.env
+.env.*
+config.local.js
+*.local.js
+
+# Editor files
+.DS_Store
+.idea/
+.project
+.classpath
+*.iml
+
+# Build artifacts
+dist/
+build/
