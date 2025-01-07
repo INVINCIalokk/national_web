@@ -4,6 +4,8 @@
 config.local.js
 *.local.js
 
+
+
 # Editor files
 .DS_Store
 .idea/
@@ -14,3 +16,5 @@ config.local.js
 # Build artifacts
 dist/
 build/
+
+node_modules/
